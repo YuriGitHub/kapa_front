@@ -125,3 +125,12 @@ p {
 .nav-item {
   font-size: 19px;
 }
+
+@media only screen and (max-device-width : 768px) {
+  .display-block {
+    display: block !important;
+  }
+  .no-margin {
+    margin: 0px !important;
+  }
+}
